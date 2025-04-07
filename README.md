@@ -17,15 +17,15 @@ The **Core Payment Integration System** is a microservices-based backend solutio
 - 🔐 **Secure Transactions**:
   - HmacSHA256 hashing for request integrity
   - Spring Security for authentication and authorization
-- 🔁 **REST APIs** for initiating and managing payments
-- 🧠 **Caching Layer**: Redis integration for real-time validation parameter caching
-- 🗃️ **Database Operations** using Spring JDBC with MySQL
-- 🚨 **Custom Error Handling** using Spring’s `@ControllerAdvice` and exception mechanisms
-- 📊 **Logging & Monitoring** with SLF4J and Logback
+-  **REST APIs** for initiating and managing payments
+-  **Caching Layer**: Redis integration for real-time validation parameter caching
+-  **Database Operations** using Spring JDBC with MySQL
+-  **Custom Error Handling** using Spring’s `@ControllerAdvice` and exception mechanisms
+-  **Logging & Monitoring** with SLF4J and Logback
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology       | Purpose                         |
 |------------------|----------------------------------|
@@ -41,7 +41,7 @@ The **Core Payment Integration System** is a microservices-based backend solutio
 
 ---
 
-## 📦 Microservices Overview
+##  Microservices Overview
 
 ### 1. `payment-validation-service`
 - Handles all field-level and business rule validations.
